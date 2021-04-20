@@ -23,6 +23,7 @@ public class BeerOrderLineDTO implements Serializable {
     private String beerStyle;
     private UUID beerId;
     private Integer orderQuantity = 0;
+    private Integer quantityAllocated;
     private BigDecimal price;
     @JsonProperty("id")
     private UUID id = null;
