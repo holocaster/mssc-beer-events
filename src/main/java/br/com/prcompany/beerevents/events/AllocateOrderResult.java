@@ -12,7 +12,9 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class AllocateOrderRequest implements Serializable {
+public class AllocateOrderResult implements Serializable {
 
     private BeerOrderDTO beerOrderDTO;
+    private boolean allocationError;
+    private boolean pendingInventory;
 }
