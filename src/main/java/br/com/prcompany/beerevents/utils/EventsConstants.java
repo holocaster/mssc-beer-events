@@ -9,4 +9,5 @@ public abstract class EventsConstants {
     public static final String ALLOCATE_ORDER_QUEUE = "allocate-order";
     public static final String ALLOCATE_ORDER_RESULT_QUEUE = "allocate-order-result";
     public static final String ALLOCATE_FAIL_QUEUE = "allocate-fail";
+    public static final String DEALLOCATE_ORDER_QUEUE = "deallocate-order";
 }
